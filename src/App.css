@@ -1,0 +1,71 @@
+*{
+  background-color: #000000;
+  color:antiquewhite;
+}
+
+.container{
+  margin-top: 20px;
+  
+}
+.name-container{
+  color: violet;
+  
+}
+
+::placeholder{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(154, 154, 147);
+}
+
+.items-container{
+  margin-top: 30px;
+}
+
+p{
+  color: violet;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.welc-msg{
+ margin-top: 4rem;
+ color: violet;
+}
+.wel-p{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1;
+  font-family:sans-serif;
+  font-weight: 500;
+}
+
+.main-container{
+  border: 2px solid violet;
+
+ width:80%;
+margin-top: 6rem;
+border-radius: 15px;
+
+}
+
+.main-container:hover{
+  
+    box-shadow: rgb(247, 139, 247, 0.9) 0px 0px 30px 10px;
+
+}
+@media screen and (max-width : 768px){
+
+.welc-msg>p {
+      color: violet;
+      font-size: 1rem;
+      font-weight: 400;
+    }
+        ::placeholder {
+          margin-left: -3px;
+          font-size: 0.7rem;
+          font-weight: 700;
+          color: rgb(154, 154, 147);   }
+
+}
